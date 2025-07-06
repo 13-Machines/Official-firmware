@@ -146,7 +146,7 @@ void FaceAppList::draw(bool force)
 				icon_x += 64 + icon_spacing;
 				if (icon_x > ((64 + icon_spacing) * 3))
 				{
-					icon_x = icon_spacing;
+					icon_x = icon_spacing + 5;
 					icon_y += 64 + icon_spacing;
 				}
 			}
